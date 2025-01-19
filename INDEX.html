@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Boss Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-title">
+          <div class="logo">
+            <img src="LOGO (4).png" alt="Cafe Logo" />
+          </div>
+          <h1>THE BOSS CAFE</h1>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="section">
+      <div class="container home">
+        <h2 class="sliding-text" style="color: rgb(241, 193, 139);">Welcome to The Boss Cafe</h2>
+        <p class="home-text" style="color:burlywood">
+          Your ultimate destination for the finest coffee, delectable pastries,
+          and an ambiance that feels like home. <br />
+          <br />
+          Experience our specially brewed coffee, crafted by experts to provide
+          the perfect start to your day. Relax and unwind while enjoying our
+          premium menu and outstanding service.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about">
+        <h2>About Us !</h2>
+        <p>
+          Welcome to The Boss Cafe! Our mission is to deliver the finest coffee
+          and delectable delicacies in a chic and cozy atmosphere. We aim to
+          create unforgettable experiences for every guest.
+        </p>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="container">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+          <img src="menu details.jpeg" alt="Menu Item 1" />
+          <img src="menu details (2) - Copy.jpeg" alt="Menu Item 2" />
+          <img src="menu details (3).jpeg" alt="Menu Item 3" />
+          <img src="menu details (4).jpeg" alt="Menu Item 4" />
+        </div>
+      </div>
+    </section>
+    <section id="ambience" class="section">
+      <div class="container">
+        <h2>Our Ambience</h2>
+        <p>
+          Step into a world of tranquility and sophistication. At The Boss Cafe,
+          our ambience is crafted to provide you with an experience of
+          relaxation and elegance.
+        </p>
+        <div class="ambience-gallery">
+          <img src="img-1.jpg" alt="Cafe Ambience 1" class="img1"/>
+          <img src="img-2.jpg" alt="Cafe Ambience 2" class="img2"/>
+          <img src="img-3.jpg" alt="Cafe Ambience 2" class="img3"/>
+          <img src="img-4.jpg" alt="Cafe Ambience 2" class="img4"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservation" class="section">
+      <div class="container">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form" method="POST">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <input type="date" id="date" name="date" required />
+          <input type="time" id="time" name="time" required />
+          <input
+            type="number"
+            id="guests"
+            name="guests"
+            placeholder="Guests"
+            required
+          />
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us...</h2>
+        <p>
+          We’d love to hear from you! Reach out or follow us on social media:
+        </p>
+        <ul class="social-media">
+          <li>
+            <a href="#"><img src="facebook.png" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="twitter.png" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="instagram.png" alt="Instagram" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 The Boss Cafe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
